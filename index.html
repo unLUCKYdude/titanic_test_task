@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Титаник</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="filterItem">
+                <span>Имя</span>
+                <input id="nameInput" />
+            </div>
+            <div class="filterItem">
+                <span>Возраст</span>
+                <input type="number" id="ageInput" />
+            </div>
+            <div class="filterItem">
+                <span>Номер билета</span>
+                <input type="number" id="ticketInput" />
+            </div>
+            <div class="filterItem">
+                <span>Выжил(а)</span>
+                <select id="isSurvivedInput">
+                    <option value="default">Не выбрано</option>
+                    <option value="true">Да</option>
+                    <option value="false">Нет</option>
+                </select>
+            </div>
+            <div class="filterItem">
+                <span>Пол</span>
+                <select id="sexInput">
+                    <option value="default">Не выбран</option>
+                    <option value="male">Мужской</option>
+                    <option value="female">Женский</option>
+                </select>
+            </div>
+        </div>
+        <button>Применить</button>
+        <button>Очистить</button>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Возраст</th>
+                    <th>Билет</th>
+                    <th>Выжил(а)</th>
+                    <th>Пол</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <footer>Тестовое задание</footer>
+</body>
+</html>
